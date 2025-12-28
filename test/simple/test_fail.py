@@ -1,15 +1,12 @@
 
 def test_fail0():
-    asert = False
-    pass
+    assert False
+
 
 def test_fail1():
-    asert = False
-    pass
+    assert False
+
 
 def test_fail2():
-    asert = False
-    pass
-
-
-
+    x = 10/0
+    assert (x)
